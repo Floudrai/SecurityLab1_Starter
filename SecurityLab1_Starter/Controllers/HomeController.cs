@@ -7,7 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 
 namespace SecurityLab1_Starter.Controllers
-{
+{//missing something in this controller since the 404 and 500 are not working
     public class HomeController : Controller
     {
         public ActionResult Index()
