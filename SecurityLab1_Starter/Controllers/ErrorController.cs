@@ -24,5 +24,10 @@ namespace SecurityLab1_Starter.Controllers
         public ActionResult Index() {
             return View();
         }
+
+        public ActionResult ServerException()
+        {
+            return View();
+        }
     }
 }

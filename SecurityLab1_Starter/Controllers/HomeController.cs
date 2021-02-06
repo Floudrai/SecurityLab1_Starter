@@ -19,8 +19,8 @@ namespace SecurityLab1_Starter.Controllers
         {
             ViewBag.Message = "Your application description page.";
 
-            var appSettings = ConfigurationManager.AppSettings;
-            var colour = appSettings["colour"];
+         
+            throw new Exception();
 
 
             return View();
